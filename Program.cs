@@ -23,6 +23,14 @@ namespace ConsoleMath
                 showMenu = MyMenu.ShowMenu();
             }
             
+            /* TODO:
+                Build a class library for the Menu classes
+                Build a class library for the math classes
+                Add more math classes/methods
+                Build OpenGL classes to graph functions like x squared etc.
+
+
+            */
            
         }
     }

@@ -1,7 +1,8 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {},
+    ".NETCoreApp,Version=v3.1/linux-x64": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
@@ -13,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tardis1/dotnet/ConsoleMath/ConsoleMenu.csproj",
+      "projectUniqueName": "/home/tardis1/ConsoleMath/ConsoleMenu.csproj",
       "projectName": "ConsoleMenu",
-      "projectPath": "/home/tardis1/dotnet/ConsoleMath/ConsoleMenu.csproj",
+      "projectPath": "/home/tardis1/ConsoleMath/ConsoleMenu.csproj",
       "packagesPath": "/home/tardis1/.nuget/packages/",
-      "outputPath": "/home/tardis1/dotnet/ConsoleMath/obj/",
+      "outputPath": "/home/tardis1/ConsoleMath/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/tardis1/.nuget/NuGet/NuGet.Config"
@@ -52,12 +53,27 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+            "version": "[3.1.10, 3.1.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "linux-x64": {
+        "#import": []
       }
     }
   }
