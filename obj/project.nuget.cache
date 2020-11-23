@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G5imSiG2dotb12vIRZWOZ0s7xuiAhAf2rokPaAnqKeySwkeTNxzXpvnF+c5u76aTLFLvAwrB0r+wW+e4AMMlGA==",
+  "dgSpecHash": "NrrQzK+YNmOTo2KFZJdpYd5fErzmpjuKn5Gb5OhJ/4Z3R+EdSDR69SEZNkvp+99kwJkNL6N5SAhGmpbTVMBMsg==",
   "success": true,
-  "projectFilePath": "/home/tardis1/ConsoleMath/ConsoleMenu.csproj",
-  "expectedPackageFiles": [
-    "/home/tardis1/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/3.1.10/microsoft.netcore.app.runtime.linux-x64.3.1.10.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/3.1.10/microsoft.aspnetcore.app.runtime.linux-x64.3.1.10.nupkg.sha512"
-  ],
+  "projectFilePath": "/home/tardis1/ConsoleMath/ConsoleMath.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,13 @@
+/home/tardis1/ConsoleMath/bin/Debug/netcoreapp3.1/ConsoleMath
+/home/tardis1/ConsoleMath/bin/Debug/netcoreapp3.1/ConsoleMath.deps.json
+/home/tardis1/ConsoleMath/bin/Debug/netcoreapp3.1/ConsoleMath.runtimeconfig.json
+/home/tardis1/ConsoleMath/bin/Debug/netcoreapp3.1/ConsoleMath.runtimeconfig.dev.json
+/home/tardis1/ConsoleMath/bin/Debug/netcoreapp3.1/ConsoleMath.dll
+/home/tardis1/ConsoleMath/bin/Debug/netcoreapp3.1/ConsoleMath.pdb
+/home/tardis1/ConsoleMath/obj/Debug/netcoreapp3.1/ConsoleMath.csprojAssemblyReference.cache
+/home/tardis1/ConsoleMath/obj/Debug/netcoreapp3.1/ConsoleMath.AssemblyInfoInputs.cache
+/home/tardis1/ConsoleMath/obj/Debug/netcoreapp3.1/ConsoleMath.AssemblyInfo.cs
+/home/tardis1/ConsoleMath/obj/Debug/netcoreapp3.1/ConsoleMath.csproj.CoreCompileInputs.cache
+/home/tardis1/ConsoleMath/obj/Debug/netcoreapp3.1/ConsoleMath.dll
+/home/tardis1/ConsoleMath/obj/Debug/netcoreapp3.1/ConsoleMath.pdb
+/home/tardis1/ConsoleMath/obj/Debug/netcoreapp3.1/ConsoleMath.genruntimeconfig.cache
