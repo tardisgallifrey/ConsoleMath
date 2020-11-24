@@ -10,6 +10,12 @@ namespace MenuClass
 {
     public class Menu
     {
+
+        public Menu()
+        {
+            //The Menu Class Constructor
+        }
+        
         //From: https://stackoverflow.com/questions/8196117/c-sharp-get-and-set-properties-for-a-list-collection
 
         //To Create a Get:Set for a List type, this is the method.
@@ -29,7 +35,7 @@ namespace MenuClass
 
         public int ShowMenu()
             {
-                var myAction = new MenuAction();
+                //var myAction = new MenuAction();
 
                 Console.Clear();
 
@@ -64,10 +70,21 @@ namespace MenuClass
                 }
                 else
                 {
-                    int response = myAction.runAction(retVal, MenuOptionList);
-                    Console.ReadKey();
-                    return response;
+                    //int response = myAction.runAction(retVal, MenuOptionList);
+                    //Console.ReadKey();
+                    return this.runAction(retVal, MenuOptionList);
                 }
+
+                
+            }
+
+            private int runAction(int option, IList<KeyValuePair<string, int>> MenuOptionList)
+            {
+
+                KeyValuePair<string, int> result = MenuOptionList.SingleOrDefault(x => x.Value == option);
+                
+                return result.Value;
+
             }
 
     }

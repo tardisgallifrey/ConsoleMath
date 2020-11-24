@@ -1,4 +1,5 @@
 using System;
+using MenuClass;
 
 
 namespace MathFormulas
@@ -10,7 +11,46 @@ namespace MathFormulas
             //Calculates certain formulas about circles.
         }       
 
-        public double Area()
+        public void CircleMenu()
+        {
+
+            var CircleMenu = new Menu();
+
+            //Reads string into Menu._MenuOptionList[firstemptyindex]
+            //
+            //in simpler terms, build your menu
+            CircleMenu.MenuOptionAdd("Choose a circle formula.", 0);
+            CircleMenu.MenuOptionAdd("1) Area of a circle.", 1);
+
+            int showMenu = 1;
+            while (showMenu > 0)
+            {
+                //When showMenu returns a 0, then Program stops
+                showMenu = CircleMenu.ShowMenu();
+
+                switch(showMenu)
+                {
+
+                    case 1:
+                        var area = this.Area();
+                        if(area > 0.00)
+                        {
+                            Console.WriteLine($"The area of your circle is {area}");
+                            Console.WriteLine("Press any key to return to circle menu.");
+                            Console.ReadKey();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Something went wrong, Sorry, quitting.");
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+
+        private double Area()
         {
                 double area = 0;
                 double diameter = 0;

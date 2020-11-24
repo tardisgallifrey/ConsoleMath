@@ -1,5 +1,6 @@
 ﻿using System;
 using MenuClass;
+using MathFormulas;
 
 
 namespace ConsoleMath
@@ -15,19 +16,57 @@ namespace ConsoleMath
             //in simpler terms, build your menu
             MyMenu.MenuOptionAdd("3) Calculate the area of a triangle.", 3);
             MyMenu.MenuOptionAdd("Choose from the following options", 0);
-            MyMenu.MenuOptionAdd("1) Calculate the area of a circle.", 1);
+            MyMenu.MenuOptionAdd("1) Circles and circular shapes.", 1);
             MyMenu.MenuOptionAdd("2) Calculate the area of a square or rectangle.", 2);
 
             int showMenu = 1;
             while (showMenu > 0)
             {
+                
                 //When showMenu returns a 0, then Program stops
                 showMenu = MyMenu.ShowMenu();
+
+                switch(showMenu)
+                {
+
+                    case 1:
+                        var docircles = new circle();
+                        docircles.CircleMenu();
+                        break;
+                    case 2:
+                        var myRectangleArea = new rectangle();
+                        var rectarea = myRectangleArea.Area();
+                        if(rectarea > 0.00)
+                        {
+                            Console.WriteLine($"The area of your rectangle or square is: {rectarea}");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Something went wrong. Sorry, quitting.");
+                        }
+                        break;
+                    case 3:
+                        var myTriangleArea = new triangle();
+                        var triarea = myTriangleArea.Area();
+                        if(triarea > 0.00)
+                        {
+                            Console.WriteLine($"The area of your triangle is: {triarea}");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Something went wrong. Sorry, quitting.");
+                        }
+                        break;
+                     default:
+                        Console.Clear();
+                        System.Environment.Exit(0);
+                        break;
+                }
+                Console.WriteLine("Press any key to return to main menu");
+                Console.ReadKey();
             }
-            
             /* TODO:
-                Build a class library for the Menu classes
-                Build a class library for the math classes
+                
                 Add more math classes/methods
                 Build OpenGL classes to graph functions like x squared etc.
 
