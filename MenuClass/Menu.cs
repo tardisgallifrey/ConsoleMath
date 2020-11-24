@@ -6,7 +6,7 @@ using System.Linq;
 //Changed from two Lists to a List<KeyValuePair> in order to 
 //ease initial Menu programming and keep things linked.
 
-namespace ConsoleMath
+namespace MenuClass
 {
     public class Menu
     {

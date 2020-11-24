@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using MathFormulas;
 
-namespace ConsoleMath
+namespace MenuClass
 {
     public class MenuAction
     {

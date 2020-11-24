@@ -1,7 +1,7 @@
 using System;
 
 
-namespace ConsoleMath
+namespace MathFormulas
 {
     public class circle
     {

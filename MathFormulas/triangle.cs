@@ -1,6 +1,6 @@
 using System;
 
-namespace ConsoleMath
+namespace MathFormulas
 {
     public class triangle
     {
