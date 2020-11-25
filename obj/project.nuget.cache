@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "7QF9nZl6smemnBXqWVyoNj70arhJgY1xZYhEuIF69tCFkwaPQWQM3lbDpF7KlYJUXVBGALbK8OZE40pyuUQh3Q==",
+  "dgSpecHash": "VuHCciabz8pjLpGiA6Y+gxLF73JZVRpBnZEVV6qlQkVoOvzJK29xEVAK6exM6UfdJNO/IUIF69IbA4vVP23uow==",
   "success": true,
   "projectFilePath": "/home/tardis1/ConsoleMath/ConsoleMath.csproj",
   "expectedPackageFiles": [
-    "/home/tardis1/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/microsoft.win32.systemevents/4.5.0/microsoft.win32.systemevents.4.5.0.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/opentk.netstandard/1.0.5.32/opentk.netstandard.1.0.5.32.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/system.drawing.common/4.5.0/system.drawing.common.4.5.0.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512"
+    "/home/tardis1/.nuget/packages/atksharp/3.22.25.128/atksharp.3.22.25.128.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/cairosharp/3.22.25.128/cairosharp.3.22.25.128.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/gdksharp/3.22.25.128/gdksharp.3.22.25.128.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/giosharp/3.22.25.128/giosharp.3.22.25.128.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/glibsharp/3.22.25.128/glibsharp.3.22.25.128.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/gtksharp/3.22.25.128/gtksharp.3.22.25.128.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/pangosharp/3.22.25.128/pangosharp.3.22.25.128.nupkg.sha512"
   ],
   "logs": []
 }
