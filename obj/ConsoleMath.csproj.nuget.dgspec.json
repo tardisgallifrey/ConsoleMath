@@ -36,6 +36,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "OpenTK.Netstandard": {
+              "target": "Package",
+              "version": "[1.0.5.32, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,6 +1,7 @@
 ﻿using System;
 using MenuClass;
 using MathFormulas;
+using WindowClass;
 
 
 namespace ConsoleMath
@@ -18,6 +19,7 @@ namespace ConsoleMath
             MyMenu.MenuOptionAdd("Choose from the following options", 0);
             MyMenu.MenuOptionAdd("1) Circles and circular shapes.", 1);
             MyMenu.MenuOptionAdd("2) Calculate the area of a square or rectangle.", 2);
+            MyMenu.MenuOptionAdd("4) Open an OpenGL Window.", 4);
 
             int showMenu = 1;
             while (showMenu > 0)
@@ -55,6 +57,15 @@ namespace ConsoleMath
                         else
                         {
                             Console.WriteLine("Something went wrong. Sorry, quitting.");
+                        }
+                        break;
+                    case 4:
+                        using (GLWindow win = new GLWindow(800, 600, "Console Math Window Test"))
+                        {                      
+                            //Run takes a double, which is how many frames per second it should strive to reach.
+                            //You can leave that out and it'll just update as fast as the hardware will allow it.
+                            double framerate = 60.0;
+                            win.Run(framerate);
                         }
                         break;
                      default:
