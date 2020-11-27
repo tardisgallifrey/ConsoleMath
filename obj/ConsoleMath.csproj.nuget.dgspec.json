@@ -37,9 +37,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "GtkSharp": {
+            "OpenTK": {
               "target": "Package",
-              "version": "[3.22.25.*, )"
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

@@ -1,16 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "VuHCciabz8pjLpGiA6Y+gxLF73JZVRpBnZEVV6qlQkVoOvzJK29xEVAK6exM6UfdJNO/IUIF69IbA4vVP23uow==",
+  "dgSpecHash": "PIQ2te4SMvwd8eFn5sah5cBelUTKHubv0h93AAjSu2x5J0x6/UjZXO+9oZm+Rxr0JeiW48d4aJgwhNaYDhEZag==",
   "success": true,
   "projectFilePath": "/home/tardis1/ConsoleMath/ConsoleMath.csproj",
   "expectedPackageFiles": [
-    "/home/tardis1/.nuget/packages/atksharp/3.22.25.128/atksharp.3.22.25.128.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/cairosharp/3.22.25.128/cairosharp.3.22.25.128.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/gdksharp/3.22.25.128/gdksharp.3.22.25.128.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/giosharp/3.22.25.128/giosharp.3.22.25.128.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/glibsharp/3.22.25.128/glibsharp.3.22.25.128.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/gtksharp/3.22.25.128/gtksharp.3.22.25.128.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/pangosharp/3.22.25.128/pangosharp.3.22.25.128.nupkg.sha512"
+    "/home/tardis1/.nuget/packages/opentk/4.3.0/opentk.4.3.0.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/opentk.compute/4.3.0/opentk.compute.4.3.0.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/opentk.core/4.3.0/opentk.core.4.3.0.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/opentk.graphics/4.3.0/opentk.graphics.4.3.0.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/opentk.input/4.3.0/opentk.input.4.3.0.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/opentk.mathematics/4.3.0/opentk.mathematics.4.3.0.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/opentk.openal/4.3.0/opentk.openal.4.3.0.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/opentk.redist.glfw/3.3.0-pre20200830200122/opentk.redist.glfw.3.3.0-pre20200830200122.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/opentk.windowing.common/4.3.0/opentk.windowing.common.4.3.0.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/opentk.windowing.desktop/4.3.0/opentk.windowing.desktop.4.3.0.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/opentk.windowing.graphicslibraryframework/4.3.0/opentk.windowing.graphicslibraryframework.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
