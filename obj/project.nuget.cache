@@ -1,20 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "PIQ2te4SMvwd8eFn5sah5cBelUTKHubv0h93AAjSu2x5J0x6/UjZXO+9oZm+Rxr0JeiW48d4aJgwhNaYDhEZag==",
+  "dgSpecHash": "F4xVUfqsEAyHBp2hVMxGh2O5Ed5jCQeMwSV1Vhvz2TWF8tQhoz1ONDwxjn/IdXx2rL6bS6IIfJlc/FeSiPvxtg==",
   "success": true,
   "projectFilePath": "/home/tardis1/ConsoleMath/ConsoleMath.csproj",
   "expectedPackageFiles": [
-    "/home/tardis1/.nuget/packages/opentk/4.3.0/opentk.4.3.0.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/opentk.compute/4.3.0/opentk.compute.4.3.0.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/opentk.core/4.3.0/opentk.core.4.3.0.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/opentk.graphics/4.3.0/opentk.graphics.4.3.0.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/opentk.input/4.3.0/opentk.input.4.3.0.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/opentk.mathematics/4.3.0/opentk.mathematics.4.3.0.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/opentk.openal/4.3.0/opentk.openal.4.3.0.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/opentk.redist.glfw/3.3.0-pre20200830200122/opentk.redist.glfw.3.3.0-pre20200830200122.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/opentk.windowing.common/4.3.0/opentk.windowing.common.4.3.0.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/opentk.windowing.desktop/4.3.0/opentk.windowing.desktop.4.3.0.nupkg.sha512",
-    "/home/tardis1/.nuget/packages/opentk.windowing.graphicslibraryframework/4.3.0/opentk.windowing.graphicslibraryframework.4.3.0.nupkg.sha512"
+    "/home/tardis1/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/microsoft.win32.systemevents/4.5.0/microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/opentk.netstandard/1.0.5.32/opentk.netstandard.1.0.5.32.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/system.drawing.common/4.5.0/system.drawing.common.4.5.0.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "/home/tardis1/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

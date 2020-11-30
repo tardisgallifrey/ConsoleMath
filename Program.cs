@@ -1,7 +1,7 @@
 ﻿using System;
 using MenuClass;
 using MathFormulas;
-using ConsoleMath.WindowClass;
+using ConsoleMath.WindowClass.GLclass;
 
 
 namespace ConsoleMath
@@ -19,7 +19,7 @@ namespace ConsoleMath
             MyMenu.MenuOptionAdd("Choose from the following options", 0);
             MyMenu.MenuOptionAdd("1) Circles and circular shapes.", 1);
             MyMenu.MenuOptionAdd("2) Calculate the area of a square or rectangle.", 2);
-            MyMenu.MenuOptionAdd("4) Open an OpenGL Window.", 4);
+            //MyMenu.MenuOptionAdd("4) Open an OpenGL Window.", 4);
 
             int showMenu = 1;
             while (showMenu > 0)
@@ -58,10 +58,6 @@ namespace ConsoleMath
                         {
                             Console.WriteLine("Something went wrong. Sorry, quitting.");
                         }
-                        break;
-                    case 4:
-                        //Open an OpenGL window (OpenTK)
-                        var win = new TriWindow();
                         break;
                      default:
                         Console.Clear();
