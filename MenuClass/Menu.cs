@@ -70,9 +70,7 @@ namespace MenuClass
                 }
                 else
                 {
-                    //int response = myAction.runAction(retVal, MenuOptionList);
-                    //Console.ReadKey();
-                    return this.runAction(retVal, MenuOptionList);
+                    return runAction(retVal, MenuOptionList);
                 }
 
                 

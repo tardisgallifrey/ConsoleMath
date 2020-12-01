@@ -362,7 +362,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "OpenTK.NetStandard >= *"
+      "OpenTK.NetStandard >= 1.0.5.32"
     ]
   },
   "packageFolders": {
@@ -403,7 +403,7 @@
         "dependencies": {
           "OpenTK.NetStandard": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[1.0.5.32, )"
           }
         },
         "imports": [
